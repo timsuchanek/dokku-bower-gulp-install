@@ -18,9 +18,8 @@ This plugin will inject the `/app/.bower` shell script that's going to be execut
 ## Usage
 
 ```
-cd /var/lib/dokku/plugins
-git clone https://github.com/alexanderbeletsky/dokku-bower-install
-dokku plugins-install
+git clone https://github.com/timsuchanek/dokku-bower-gulp-install.git /var/lib/dokku/plugins/bower-gulp-install
+sudo dokku plugins-install
 ```
 
 Push your app.
